@@ -14,6 +14,6 @@ COPY . $APP_PATH
 RUN bundle install --local
 
 ENV PORT 8080
-EXPOSE $PORT
+EXPOSE 8080
 
 CMD ["ruby", "/app/main.rb"]
